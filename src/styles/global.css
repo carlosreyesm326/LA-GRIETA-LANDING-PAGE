@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /* Tipografía moderna tipo Calibre */
+  font-family: 
+    "Calibre",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  /* Tamaño y legibilidad óptima */
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.015em;
+
+  /* Renderizado premium */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  /* Colores base para landing moderna */
+  color: #0f172a;            /* gris oscuro elegante */
+  background-color: #ffffff;
+
+  /* Mejor experiencia mobile */
+  -webkit-text-size-adjust: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ajuste para que el contenido no quede oculto bajo el header fijo */
+section {
+    scroll-margin-top: 60px;
+}

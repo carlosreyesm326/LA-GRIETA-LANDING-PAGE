@@ -1,0 +1,46 @@
+<section class="py-16 px-4 " id="testimonios">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-bold text-amber-500 mb-4">
+                Lo Que Dicen Nuestros Clientes
+            </h2>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-6">
+                Lee las reseñas reales de quienes ya visitaron La Grieta
+            </p>
+            
+            <!-- Rating promedio -->
+            <div class="flex items-center justify-center gap-3 mb-6">
+                <div class="flex gap-1">
+                    {[...Array(5)].map(() => (
+                        <svg class="w-7 h-7 text-amber-400 fill-current" viewBox="0 0 20 20">
+                            <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                        </svg>
+                    ))}
+                </div>
+                <span class="text-3xl font-bold text-white">4.8</span>
+            </div>
+
+            <!-- Botón para Google Maps -->
+            <a 
+                href="https://www.google.com/maps/place/ALASKA+LICORERIA/@4.6999024,-74.0966052,17z/data=!4m8!3m7!1s0x8e3f9b0062775d73:0x6d9fd60ccd2b3830!8m2!3d4.6999024!4d-74.0940303!9m1!1b1!16s%2Fg%2F11l5xfqw8k?entry=ttu" 
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 bg-transparent border-2 border-amber-500 hover:bg-amber-500/10 text-amber-400 font-semibold py-2 px-6 rounded-lg transition-all hover:scale-105"
+            >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                Déjanos tu reseña en Google
+            </a>
+        </div>
+
+        <!-- Widget de Elfsight -->
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-4 md:p-8 border border-slate-700 shadow-2xl">
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-0bfd56fb-2cb0-4172-935d-471f401126af" data-elfsight-app-lazy></div>
+        </div>
+
+
+    </div>
+</section>

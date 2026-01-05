@@ -1,0 +1,257 @@
+{
+  "cervezas": [
+    {
+      "id": 1,
+      "nombre": "Corona Extra",
+      "tipo": "Lager",
+      "origen": "México",
+      "alcohol": "4.5%",
+      "precio": 3500,
+      "descripcion": "Cerveza rubia ligera y refrescante, perfecta para climas cálidos",
+      "imagen": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=400"
+    },
+    {
+      "id": 2,
+      "nombre": "Heineken",
+      "tipo": "Lager Premium",
+      "origen": "Países Bajos",
+      "alcohol": "5%",
+      "precio": 4000,
+      "descripcion": "Cerveza premium con sabor equilibrado y ligeramente amargo",
+      "imagen": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Guinness",
+      "tipo": "Stout",
+      "origen": "Irlanda",
+      "alcohol": "4.2%",
+      "precio": 5500,
+      "descripcion": "Cerveza negra cremosa con notas de café y chocolate",
+      "imagen": "https://images.unsplash.com/photo-1612528443702-f6741f70a049?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "IPA Artesanal",
+      "tipo": "India Pale Ale",
+      "origen": "Colombia",
+      "alcohol": "6.5%",
+      "precio": 6000,
+      "descripcion": "Cerveza artesanal con intenso sabor a lúpulo y cítricos",
+      "imagen": "https://images.unsplash.com/photo-1596285375034-a4486290edcd?w=400"
+    },
+    {
+      "id": 5,
+      "nombre": "Club Colombia",
+      "tipo": "Lager Premium",
+      "origen": "Colombia",
+      "alcohol": "4.7%",
+      "precio": 3200,
+      "descripcion": "Cerveza premium colombiana con sabor suave",
+      "imagen": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=400"
+    }
+  ],
+  "cocteles": [
+    {
+      "id": 1,
+      "nombre": "Mojito",
+      "categoria": "Refrescante",
+      "ingredientes": ["Ron blanco", "Menta", "Limón", "Azúcar", "Soda"],
+      "precio": 15000,
+      "descripcion": "Refrescante cóctel cubano con menta y limón",
+      "imagen": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400"
+    },
+    {
+      "id": 2,
+      "nombre": "Margarita",
+      "categoria": "Clásico",
+      "ingredientes": ["Tequila", "Triple sec", "Limón", "Sal"],
+      "precio": 16000,
+      "descripcion": "Cóctel mexicano con tequila y limón",
+      "imagen": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Piña Colada",
+      "categoria": "Tropical",
+      "ingredientes": ["Ron blanco", "Crema de coco", "Jugo de piña"],
+      "precio": 17000,
+      "descripcion": "Cremoso cóctel tropical con piña y coco",
+      "imagen": "https://images.unsplash.com/photo-1546171753-97d7676e4602?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "Old Fashioned",
+      "categoria": "Clásico",
+      "ingredientes": ["Whisky", "Azúcar", "Angostura", "Naranja"],
+      "precio": 18000,
+      "descripcion": "Elegante cóctel de whisky con toques cítricos",
+      "imagen": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400"
+    },
+    {
+      "id": 5,
+      "nombre": "Caipirinha",
+      "categoria": "Brasileño",
+      "ingredientes": ["Cachaça", "Limón", "Azúcar", "Hielo"],
+      "precio": 14000,
+      "descripcion": "Cóctel brasileño refrescante y potente",
+      "imagen": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400"
+    }
+  ],
+  "licores": [
+    {
+      "id": 1,
+      "nombre": "Johnnie Walker Black Label",
+      "tipo": "Whisky Escocés",
+      "alcohol": "40%",
+      "precio": 120000,
+      "descripcion": "Whisky escocés premium de 12 años",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=400"
+    },
+    {
+      "id": 2,
+      "nombre": "Absolut Vodka",
+      "tipo": "Vodka",
+      "alcohol": "40%",
+      "precio": 85000,
+      "descripcion": "Vodka sueco puro y suave",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1560512823-829485b8bf24?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Havana Club 7 Años",
+      "tipo": "Ron",
+      "alcohol": "40%",
+      "precio": 95000,
+      "descripcion": "Ron cubano añejo de gran calidad",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1514361892635-6b07e31e75f9?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "Tanqueray",
+      "tipo": "Gin",
+      "alcohol": "47.3%",
+      "precio": 90000,
+      "descripcion": "Gin premium con enebro y especias",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400"
+    },
+    {
+      "id": 5,
+      "nombre": "José Cuervo Especial",
+      "tipo": "Tequila",
+      "alcohol": "38%",
+      "precio": 75000,
+      "descripcion": "Tequila mexicano gold",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1596550298496-64da5b00531d?w=400"
+    }
+  ],
+  "vinos": [
+    {
+      "id": 1,
+      "nombre": "Casillero del Diablo",
+      "tipo": "Cabernet Sauvignon",
+      "origen": "Chile",
+      "alcohol": "13.5%",
+      "precio": 45000,
+      "descripcion": "Vino tinto robusto con notas frutales",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400"
+    },
+    {
+      "id": 2,
+      "nombre": "Santa Rita 120",
+      "tipo": "Merlot",
+      "origen": "Chile",
+      "alcohol": "13%",
+      "precio": 38000,
+      "descripcion": "Vino tinto suave y aterciopelado",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Gato Negro",
+      "tipo": "Sauvignon Blanc",
+      "origen": "Chile",
+      "alcohol": "12.5%",
+      "precio": 32000,
+      "descripcion": "Vino blanco fresco y aromático",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1474722883778-ab3ea2dd8a5d?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "Rosé Norton",
+      "tipo": "Rosé",
+      "origen": "Argentina",
+      "alcohol": "12%",
+      "precio": 40000,
+      "descripcion": "Vino rosado refrescante y frutal",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=400"
+    },
+    {
+      "id": 5,
+      "nombre": "Trapiche",
+      "tipo": "Malbec",
+      "origen": "Argentina",
+      "alcohol": "14%",
+      "precio": 50000,
+      "descripcion": "Vino tinto intenso y especiado",
+      "presentacion": "750ml",
+      "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400"
+    }
+  ],
+  "bebidas ZERO": [
+    {
+      "id": 1,
+      "nombre": "Coca-Cola",
+      "tipo": "Gaseosa",
+      "precio": 2500,
+      "descripcion": "Bebida gaseosa clásica",
+      "presentacion": "350ml",
+      "imagen": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"
+    },
+    {
+      "id": 2,
+      "nombre": "Agua Cristal",
+      "tipo": "Agua",
+      "precio": 2000,
+      "descripcion": "Agua mineral sin gas",
+      "presentacion": "500ml",
+      "imagen": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Red Bull",
+      "tipo": "Energizante",
+      "precio": 5000,
+      "descripcion": "Bebida energética",
+      "presentacion": "250ml",
+      "imagen": "https://images.unsplash.com/photo-1622543925917-763c34c1a86e?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "Limonada Natural",
+      "tipo": "Jugo Natural",
+      "precio": 6000,
+      "descripcion": "Limonada casera refrescante",
+      "presentacion": "400ml",
+      "imagen": "https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?w=400"
+    },
+    {
+      "id": 5,
+      "nombre": "Té Helado",
+      "tipo": "Té",
+      "precio": 4500,
+      "descripcion": "Té frío con limón",
+      "presentacion": "400ml",
+      "imagen": "https://images.unsplash.com/photo-1556881261-c2210afd4e05?w=400"
+    }
+  ]
+}
